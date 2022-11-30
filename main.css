@@ -2,7 +2,19 @@
 
 body{
     /* CSS goes here */
-    background-color: rgb(rgba(239, 239, 227, 0.996), green, blue);
+    background-color: whitesmoke;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 120;
+    font-size: 35px;
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+
+h1{
+    font-family: font-family: 'EB Garamond', serif;
+    margin: auto;
+    width: 79%;
+    border 3px solid green;
+    padding: 10px;
+
 }
