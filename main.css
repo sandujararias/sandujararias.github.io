@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+
 body{
     /* CSS goes here */
     background-color: whitesmoke;
@@ -11,10 +13,10 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
 
 h1{
-    font-family: font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif;
     margin: auto;
     width: 79%;
-    border 3px solid green;
+    border: 3px solid green;
     padding: 10px;
 
 }
