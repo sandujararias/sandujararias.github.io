@@ -6,7 +6,7 @@ body{
     /* CSS goes here */
     background-color: whitesmoke;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color:black;
 }
 
@@ -20,13 +20,13 @@ h1{
 }
 
 p{
-    width: 60%;
-    margin: auto; 
+  width: 60%;
+  margin: auto;
 }
 
 img{ 
     display: block;
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 }
 
@@ -42,10 +42,22 @@ a:visited{
 a:hover,
 a:active {
     color: whitesmoke;
-    background-color: #86a2ac;
+    background-color: orangered;
 }
 
 .text {
     margin-bottom: 42px;
 
+}
+
+.text2 {
+    margin-top: 42px;
+
+}
+/* these get your boxes together*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 }
